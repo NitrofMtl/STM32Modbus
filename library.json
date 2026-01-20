@@ -1,0 +1,43 @@
+{
+  "name": "STM32Modbus",
+  "version": "0.8.0",
+  "description": "Modbus client/server library for STM32 Arduino boards using a DMA-based RS485 backend.",
+  "keywords": [
+    "modbus",
+    "rs485",
+    "stm32",
+    "dma",
+    "industrial"
+  ],
+  "authors": [
+    {
+      "name": "Arduino",
+      "email": "info@arduino.cc"
+    },
+    {
+      "name": "NitroFMtl",
+      "maintainer": true
+    }
+  ],
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://github.com/NitrofMtl/STM32Modbus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NitrofMtl/STM32Modbus.git"
+  },
+  "dependencies": [
+    {
+      "name": "STM32RS485DMA",
+      "owner": "NitrofMtl"
+    }
+  ],
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "ststm32"
+  ],
+  "headers": [
+    "STM32Modbus.h"
+  ]
+}
