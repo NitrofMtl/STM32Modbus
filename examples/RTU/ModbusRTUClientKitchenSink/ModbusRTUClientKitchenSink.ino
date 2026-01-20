@@ -327,7 +327,7 @@ I think I want to break down thing to be certain to respect logic and also not b
 first, set the working conditions: 
   a frame star when rx start, 
   stop when idle, 
-  is aprove when idle delay is pass. then frame is consume then reset. 
+  is approve when idle delay is pass. then frame is consume then reset. 
   
 between start and approved, 2 case could append: 
   1 idle is detected but restart before delay is over-> 
