@@ -1,6 +1,6 @@
 {
   "name": "STM32Modbus",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Modbus client/server library for STM32 Arduino boards using a DMA-based RS485 backend.",
   "keywords": [
     "modbus",
